@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 4.0.0.1-->
+<svg stroke-width="0.501" stroke-linejoin="bevel" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="107.25pt" height="168pt" viewBox="0 0 107.25 168">
+ <defs>
+  <marker id="DefaultArrow2" markerUnits="strokeWidth" viewBox="0 0 1 1" markerWidth="1" markerHeight="1" overflow="visible" orient="auto">
+   <!-- REF_ARROW_STRAIGHT (-2) -->
+   <g transform="scale(0.0092592592)">
+    <!-- 1/108 -->
+    <path d="M -9 54 L -9 -54 L 117 0 z"/>
+   </g>
+  </marker>
+  <marker id="DefaultArrow3" markerUnits="strokeWidth" viewBox="0 0 1 1" markerWidth="1" markerHeight="1" overflow="visible" orient="auto">
+   <!-- REF_ARROW_ANGLED -->
+   <g transform="scale(0.0092592592)">
+    <path d="M -27 54 L -9 0 L -27 -54 L 135 0 z"/>
+   </g>
+  </marker>
+  <marker id="DefaultArrow4" markerUnits="strokeWidth" viewBox="0 0 1 1" markerWidth="1" markerHeight="1" overflow="visible" orient="auto">
+   <!-- REF_ARROW_ROUNDED -->
+   <g transform="scale(0.0092592592)">
+    <path d="M -9,0 L -9,-45 C -9,-51.708 2.808,-56.580 9,-54 L 117,-9 C 120.916,-7.369 126.000,-4.242 126,0 C 126,4.242 120.916,7.369 117,9 L 9,54 C 2.808,56.580 -9,51.708 -9,45 z"/>
+   </g>
+  </marker>
+  <marker id="DefaultArrow5" markerUnits="strokeWidth" viewBox="0 0 1 1" markerWidth="1" markerHeight="1" overflow="visible" orient="auto">
+   <!-- REF_ARROW_SPOT -->
+   <g transform="scale(0.0092592592)">
+    <path d="M -54, 0 C -54,29.807 -29.807,54 0,54 C 29.807,54 54,29.807 54,0 C 54,-29.807 29.807,-54 0,-54 C -29.807,-54 -54,-29.807 -54,0 z"/>
+   </g>
+  </marker>
+  <marker id="DefaultArrow6" markerUnits="strokeWidth" viewBox="0 0 1 1" markerWidth="1" markerHeight="1" overflow="visible" orient="auto">
+   <!-- REF_ARROW_DIAMOND -->
+   <g transform="scale(0.0092592592)">
+    <path d="M -63,0 L 0,63 L 63,0 L 0,-63 z"/>
+   </g>
+  </marker>
+  <marker id="DefaultArrow7" markerUnits="strokeWidth" viewBox="0 0 1 1" markerWidth="1" markerHeight="1" overflow="visible" orient="auto">
+   <!-- REF_ARROW_FEATHER -->
+   <g transform="scale(0.0092592592)">
+    <path d="M 18,-54 L 108,-54 L 63,0 L 108,54 L 18, 54 L -36,0 z"/>
+   </g>
+  </marker>
+  <marker id="DefaultArrow8" markerUnits="strokeWidth" viewBox="0 0 1 1" markerWidth="1" markerHeight="1" overflow="visible" orient="auto">
+   <!-- REF_ARROW_FEATHER2 -->
+   <g transform="scale(0.0092592592)">
+    <path d="M -36,0 L 18,-54 L 54,-54 L 18,-18 L 27,-18 L 63,-54 L 99,-54 L 63,-18 L 72,-18 L 108,-54 L 144,-54 L 90,0 L 144,54 L 108,54 L 72,18 L 63,18 L 99,54 L 63,54 L 27,18 L 18,18 L 54,54 L 18,54 z"/>
+   </g>
+  </marker>
+  <marker id="DefaultArrow9" markerUnits="strokeWidth" viewBox="0 0 1 1" markerWidth="1" markerHeight="1" overflow="visible" orient="auto">
+   <!-- REF_ARROW_HOLLOWDIAMOND -->
+   <g transform="scale(0.0092592592)">
+    <path d="M 0,45 L -45,0 L 0, -45 L 45, 0 z M 0, 63 L-63, 0 L 0, -63 L 63, 0 z"/>
+   </g>
+  </marker>
+  <filter id="StainedFilter">
+   <feBlend mode="multiply" in2="BackgroundImage" in="SourceGraphic" result="blend"/>
+   <feComposite in="blend" in2="SourceAlpha" operator="in" result="comp"/>
+  </filter>
+  <filter id="BleachFilter">
+   <feBlend mode="screen" in2="BackgroundImage" in="SourceGraphic" result="blend"/>
+   <feComposite in="blend" in2="SourceAlpha" operator="in" result="comp"/>
+  </filter>
+  <filter id="InvertTransparencyBitmapFilter">
+   <feComponentTransfer>
+    <feFuncR type="gamma" amplitude="1.055" exponent=".416666666" offset="-0.055"/>
+    <feFuncG type="gamma" amplitude="1.055" exponent=".416666666" offset="-0.055"/>
+    <feFuncB type="gamma" amplitude="1.055" exponent=".416666666" offset="-0.055"/>
+   </feComponentTransfer>
+   <feComponentTransfer>
+    <feFuncR type="linear" slope="-1" intercept="1"/>
+    <feFuncG type="linear" slope="-1" intercept="1"/>
+    <feFuncB type="linear" slope="-1" intercept="1"/>
+    <feFuncA type="linear" slope="1" intercept="0"/>
+   </feComponentTransfer>
+   <feComponentTransfer>
+    <feFuncR type="gamma" amplitude="1" exponent="2.4" offset="0"/>
+    <feFuncG type="gamma" amplitude="1" exponent="2.4" offset="0"/>
+    <feFuncB type="gamma" amplitude="1" exponent="2.4" offset="0"/>
+   </feComponentTransfer>
+  </filter>
+ </defs>
+ <g id="Document" fill="none" stroke="black" font-family="Times New Roman" font-size="16" transform="scale(1 -1)">
+  <g id="Spread" transform="translate(0 -168)">
+   <g id="Layer 1"/>
+   <g id="logo_tower">
+    <text xml:space="preserve" transform="translate(43.053 77.146) scale(1 -1)" font-size="12.382" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="2.282" y="0">01100100</tspan><tspan x="2.282" y="14.376">01100101</tspan><tspan x="2.282" y="28.752">01100100</tspan><tspan x="2.282" y="43.128">01100101</tspan><tspan x="2.282" y="57.504">01110110</tspan><tspan x="2.282" y="71.88">01110011</tspan></text>
+   </g>
+   <g id="logo_flyingBinary">
+    <text xml:space="preserve" transform="matrix(0.966217 0.257706 0.257706 -0.966217 66.441 94.217)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.137" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.954819 -0.297165 -0.297165 -0.954819 1.121 139.065)" font-size="12.536" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.138" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.987289 0.15889 0.15889 -0.987289 21.523 143.375)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.137" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(-0.908752 0.417328 -0.417328 -0.908752 39.118 128.975)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="0.385" y="0">0</tspan></text>
+    <text xml:space="preserve" transform="matrix(-0.96814 -0.250381 0.250381 -0.96814 23.083 119.132)" font-size="12.534" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="0.386" y="0">0</tspan></text>
+    <text xml:space="preserve" transform="matrix(-0.983337 0.181778 -0.181778 -0.983337 25.077 130.944)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="0.385" y="0">0</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.977539 -0.210785 -0.210785 -0.977539 33.829 116.381)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.137" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.985977 0.16684 0.16684 -0.985977 22.549 111.716)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.137" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(-0.949982 -0.312302 0.312302 -0.949982 39.056 98.682)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="0.385" y="0">0</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.912659 -0.408707 -0.408707 -0.912659 36.318 105.117)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.137" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.790543 0.612411 0.612411 -0.790543 81.373 88.69)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.137" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(-0.994812 -0.1017 0.1017 -0.994812 59.036 94.437)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="0.385" y="0">0</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.966217 0.257706 0.257706 -0.966217 90.041 88.51)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.137" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.990494 -0.137512 -0.137512 -0.990494 55.541 102.046)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.136" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(0.968216 0.250122 0.250122 -0.968216 47.581 108.164)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="4.137" y="0">1</tspan></text>
+    <text xml:space="preserve" transform="matrix(-0.945847 -0.324631 0.324631 -0.945847 17.947 154.574)" font-size="12.537" fill="#283845" stroke="none" stroke-width="0.089" stroke-linejoin="round" stroke-linecap="round" font-family="Trebuchet MS" font-weight="bold" stroke-miterlimit="79.8403193612775"><tspan x="0.385" y="0">0</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>

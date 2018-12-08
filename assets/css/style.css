@@ -1,0 +1,333 @@
+/* = = = = = FONTS = = = = = */
+/* Viewport fonts are located in mixin due
+   to scss rendering requirements in viewport */
+body {
+  font-family: 'Muli', sans-serif;
+  color: #283845; }
+
+.section {
+  font-size: 1em;
+  letter-spacing: 0em; }
+
+header .nav-social a {
+  font-size: 1rem;
+  letter-spacing: 2em;
+  font-weight: bold;
+  color: #283845; }
+
+header .nav-social .current-language a {
+  font-size: 0.8rem;
+  letter-spacing: 0em;
+  font-weight: normal;
+  color: #283845; }
+
+header .nav-desktop-list a {
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  color: #FE3483; }
+
+header .mobile-bar-icon {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FE3483; }
+
+header .mobile-bar-icon i.fa {
+  font-size: 2.5rem;
+  color: #FE3483; }
+
+header .mobile-bar-icon-close i.fa {
+  font-size: 1.5rem;
+  color: #FFFFFF; }
+
+#scroll-down {
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  color: #283845; }
+
+.s-banner {
+  letter-spacing: 0.1em; }
+
+.s-banner h1 span {
+  font-weight: bold; }
+
+.s-banner h1 {
+  font-weight: normal;
+  font-size: calc(2rem + 8vw);
+  color: #FE3483; }
+
+.s-banner h2 {
+  line-height: 1em; }
+
+.s-banner h3 {
+  font-size: calc(0.3rem + 2vw);
+  font-weight: normal;
+  line-height: 1.5em; }
+
+.s-banner h4 {
+  letter-spacing: 0.2em;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 3em; }
+
+/* = = = = = BUTTONS = = = = = */
+/* = = = = = DEBUG = = = = = */
+/* = = = = = MIXINGS = = = = = */
+/* = = = = = = = = = = = = */
+/*         FLEX            */
+/* = = = = = = = = = = = = */
+/* = = = = = = = = = = = = = */
+/*     VIEWPORT FONTS        */
+/* = = = = = = = = = = = = = */
+/* = = = = = = = = = = = = */
+/*           BODY          */
+/* = = = = = = = = = = = = */
+/* Format: Everything (margin + padding + border) = width */
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+/* = = = = = LINKS = = = = = */
+a {
+  text-decoration: none; }
+  a:hover {
+    opacity: 0.7; }
+
+/* = = = = = = = = = = = = = */
+/*           MODALS          */
+/* = = = = = = = = = = = = = */
+.hide-outside {
+  transform: translate3d(0, -150%, 0); }
+
+.hide {
+  display: none !important; }
+
+/* = = = = = = = = = = = = = */
+/*        SCROLLDOWN         */
+/* = = = = = = = = = = = = = */
+#scroll-down {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  position: fixed;
+  bottom: 70px;
+  left: 30px;
+  /*40*/
+  z-index: 100; }
+
+/* = = = = = = = = = = = = = */
+/*           HEADER          */
+/* = = = = = = = = = = = = = */
+/* Format: Top Menu/Logo/Bar container */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: #FFFFFF;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* this is 1000 */
+  /* Format: Menu Bar Icon aligns vertical to other icons, instead of going down */
+  /* Format: Bar Window  */ }
+  header .nav-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-top: 10px; }
+  header .mobile-bar-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer; }
+  header .mobile-bar-icon-close {
+    border: 1px solid #FE3483;
+    background-color: #FE3483;
+    border-radius: 4px;
+    padding: 0.3em 0.55em 0.3em 0.55em;
+    /* button size */
+    cursor: pointer; }
+  header .nav-desktop-list {
+    /* Format: Top Menu Text Horizontal */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* Format: Top Menu Text Space */ }
+    header .nav-desktop-list a {
+      display: block;
+      margin-right: 1.7rem; }
+  header .nav-mobile {
+    /* Desc: width + height fill the window */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #283845cc;
+    padding-left: 35%;
+    z-index: -100;
+    /* Format: Bar Menu UL display */ }
+    header .nav-mobile ul.nav-mobile-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: space-around;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      height: 100vh;
+      list-style: none;
+      background-color: #FFFFFF;
+      /* Format: Bar Menu Social Media (Bottom) display */ }
+      header .nav-mobile ul.nav-mobile-list li {
+        width: 80%;
+        border-bottom: 1px solid #dbdbdb;
+        text-align: right; }
+        header .nav-mobile ul.nav-mobile-list li a {
+          color: #FE3483; }
+      header .nav-mobile ul.nav-mobile-list li:last-child {
+        text-align: center; }
+  header .nav-mobile-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  header .nav-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0px 10px 0px; }
+    header .nav-social .current-language {
+      margin-top: 0px;
+      padding-right: 2em; }
+    header .nav-social .language-selector {
+      border: 2px solid red;
+      position: relative;
+      width: 200px; }
+
+.s-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  /* adjust banner size */
+  width: 80%;
+  /* center the banner by complementing the size adjusted */
+  margin-right: 20%;
+  text-align: right; }
+  .s-banner h2 {
+    margin-bottom: 1.5em; }
+  .s-banner h3 span {
+    border: 1px solid #283845;
+    background-color: #283845;
+    border-radius: 8px;
+    padding: 0px 0.3em 0px 0.3em;
+    /* button size */
+    margin: 0px 0.3em 0px 0.3em; }
+  .s-banner h3 .span-learn {
+    font-weight: bold;
+    color: #FFFFFF; }
+  .s-banner h3 .span-code {
+    color: #CEFF1A; }
+  .s-banner h3 .span-robots {
+    color: #F4E04D; }
+
+/* = = = = = = = = = = = = = */
+/*            SECTIONS       */
+/* = = = = = = = = = = = = = */
+#section-programs {
+  background-color: #F4E04D; }
+
+.section {
+  padding-left: 65px;
+  padding-right: 65px; }
+
+/* = = = = = VIEWPORT = = = = = */
+/* - - - - - Desktop - - - - - */
+@media screen and (min-width: 992px) {
+  header {
+    padding: 10px 40px 10px 40px; }
+    header .navigation {
+      width: 100%; }
+    header .nav-mobile-wrap {
+      display: none; }
+    header .codedevs-engineer img {
+      height: 4.6rem; } }
+/* - - - - - Large Tablets - - - - - */
+@media screen and (max-width: 991px) {
+  #scroll-down {
+    display: none; }
+
+  header {
+    padding: 5px 20px 0px 20px; }
+    header .navigation {
+      width: 45%; }
+    header .codedevs-engineer img {
+      height: 2.7rem; }
+    header .nav-social {
+      display: none; }
+    header .nav-desktop {
+      display: none; }
+    header .nav-mobile ul.nav-mobile-list {
+      padding: 55% 0px 55% 0px;
+      font-size: 2.2rem;
+      font-weight: bold;
+      letter-spacing: 0.2em; }
+      header .nav-mobile ul.nav-mobile-list .nav-mobile-language {
+        font-size: 2rem;
+        font-weight: normal;
+        letter-spacing: 0.2em; }
+      header .nav-mobile ul.nav-mobile-list li {
+        padding: 2% 0px 2% 0px; }
+      header .nav-mobile ul.nav-mobile-list li:last-child a {
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+        color: #283845;
+        font-size: 2rem;
+        letter-spacing: 0.7em; } }
+/* - - - - - Medium Tablets ( 767 < )- - - - - */
+/* - - - - - Smartphones (479 < )- - - - - */
+@media screen and (max-width: 479px) {
+  header {
+    padding: 0px 15px 0px 15px; }
+    header .nav-mobile ul.nav-mobile-list {
+      padding: 50% 0px 50% 0px;
+      font-size: 1.4rem;
+      font-weight: bold; }
+      header .nav-mobile ul.nav-mobile-list .nav-mobile-language {
+        font-size: 1.2rem;
+        font-weight: normal; }
+      header .nav-mobile ul.nav-mobile-list li {
+        padding: 5% 0px 5% 0px; }
+      header .nav-mobile ul.nav-mobile-list li:last-child a {
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+        color: #283845;
+        font-size: 1.4rem;
+        letter-spacing: 0.1em; } }
