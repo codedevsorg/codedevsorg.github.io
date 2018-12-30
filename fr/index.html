@@ -4,16 +4,20 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Muli:400,600,700|Noto+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css">
+        <link rel="stylesheet" href="/assets/css/fullpage.css">
         <link rel="stylesheet" href="/assets/css/style.css">                
         <title>CodeDevs | Académie de Programmation à but Non Lucratif pour les Femmes et les Minorités</title>
     </head>
     <body>
         <header>    
-    <div class="codedevs-engineer">
-        <a href="/#inicio"><img src="/assets/img/codedevs-engineer.svg"/></a>
+    <div class="codedevs-engineer-color">
+        <a href="/#inicio"><img src="/assets/img/codedevs-engineer-color.svg"/></a>
+    </div>
+    <div class="codedevs-engineer-silver hide">
+        <img src="/assets/img/codedevs-engineer-silver.svg"/>
     </div>
     <div class="navigation">
         <div class="nav-social">            
@@ -40,13 +44,13 @@
 </div>
 
 
-    <a href="https://instagram.com/codedevsorg" target="_blank"><i class="fa fa-instagram"></i></a>
-
     <a href="https://twitter.com/codedevsorg" target="_blank"><i class="fa fa-twitter"></i></a>
 
     <a href="https://facebook.com/codedevsorg" target="_blank"><i class="fa fa-facebook"></i></a>
 
-    <a href="https://youtube.com/user/codedevsorg" target="_blank"><i class="fa fa-youtube"></i></a>
+    <a href="https://instagram.com/codedevsorg" target="_blank"><i class="fa fa-instagram"></i></a>
+
+    <a href="https://www.youtube.com/channel/UC_ZfAFlGfhvVUnnWbUzYd6g" target="_blank"><i class="fa fa-youtube"></i></a>
 
         </div>
         <div class="nav-desktop">
@@ -54,21 +58,21 @@
 
 <div class="nav-desktop-list">            
 
-    <a href="#inicio" target="_self">INICIO</a>
+    <a href="#inicio" target="_self">Inicio</a>
 
-    <a href="#programmes" target="_self">PROGRAMMES</a>
+    <a href="#programmes" target="_self">Programmes</a>
 
-    <a href="#enregistrement" target="_self">ENREGISTREMENT</a>
+    <a href="#enregistrement" target="_self">Enregistrement</a>
 
-    <a href="#être-impliqué" target="_self">ÊTRE IMPLIQUÉ</a>
+    <a href="#être-impliqué" target="_self">Être impliqué</a>
 
-    <a href="#à-propos-de-nous" target="_self">À PROPOS DE NOUS</a>
+    <a href="#à-propos-de-nous" target="_self">À propos de nous</a>
 
 </div>
         </div>    
         <div class="nav-mobile-wrap">
             <div class="mobile-bar-icon-wrap">                
-                <div class="mobile-bar-icon">Menu&nbsp;&nbsp;<i class="fa fa-bars"></i></div>
+                <div class="mobile-bar-icon"><i class="fa fa-bars"></i></div>
                 <div class="mobile-bar-icon-close hide"><i class="fa fa-times"></i></div>
             </div>
             <!-- Navigation - Enabled in Small Display (Only)(Accordion Content) -->
@@ -93,13 +97,13 @@
         
         <li>
         
-            <a href="https://instagram.com/codedevsorg" target="_blank"><i class="fa fa-instagram  "></i></a>
-        
             <a href="https://twitter.com/codedevsorg" target="_blank"><i class="fa fa-twitter  "></i></a>
         
             <a href="https://facebook.com/codedevsorg" target="_blank"><i class="fa fa-facebook  "></i></a>
         
-            <a href="https://youtube.com/user/codedevsorg" target="_blank"><i class="fa fa-youtube  "></i></a>
+            <a href="https://instagram.com/codedevsorg" target="_blank"><i class="fa fa-instagram  "></i></a>
+        
+            <a href="https://www.youtube.com/channel/UC_ZfAFlGfhvVUnnWbUzYd6g" target="_blank"><i class="fa fa-youtube  "></i></a>
         
         </li>        
     </ul>
@@ -110,17 +114,57 @@
         
         <!-- Starts FullPage Slide JS -->
         <div id="fullpage">
-            <div class="section" id="section-home" data-anchor="inicio">
+            <div class="section" id="section-home" data-anchor="inicio">                
                 
-<div class="s-banner">    
+<div class="banner">
     <h1><span>co</span>de <span>de</span>vs</h1>   
-    <h2>Académie de Codage à but Non Lucratif</h2>
-    <div class="s-zinger">
-        <h3><span class="span-learn">APPRENDRE</span> COMMENT <span class="span-code">PROGRAMME</span></h3>
-        <h3>AVEC <span class="span-robots">ROBOTS</span></h3>
-    </div>
-    <h4>Gagnant de Opportunity Quest 2018 Westminster</h4>
+    <div class="banner-inner">
+        <div class="banner-left">
+            <h2>Académie de Codage à but Non Lucratif</h2>
+            <div class="zinger">
+                <h3><span class="span-learn">APPRENDRE</span> COMMENT <span class="span-code">PROGRAMME</span></h3>
+                <h3>AVEC <span class="span-robots">ROBOTS</span></h3>
+            </div>
+            <h4>Westminster OQ 2018: Gagnant de la Catégorie Sociale<br/>
+                et Le Choix du Public
+            </h4>
+        </div>
+    </div>    
 </div>
+<div class="banner-ads">
+    <div class="banner-robot">
+        <p></p>
+        <div class="banner-robot-img">
+            <img src="/assets/img/robot-x200-ozobot.png"/>
+            <h3>Ozobots</h3>
+        </div>
+    </div>
+    <div class="banner-robot">
+        <p></p>
+        <div class="banner-robot-img">
+            <img src="/assets/img/robot-x200-mip.png"/>
+            <h3>MiP</h3>
+        </div>
+    </div>
+    <div class="banner-robot">
+        <p></p>
+        <div class="banner-robot-img">
+            <img src="/assets/img/robot-x200-cozmo.png"/>
+            <h3>Cozmo</h3>
+        </div>
+    </div>
+    <div class="banner-robot">
+        <p></p>
+        <div class="banner-robot-img">
+            <img src="/assets/img/robot-x200-dji_spark.png"/>
+            <h3>DJI Spark</h3>
+        </div>        
+    </div>
+</div>
+<div class="banner-robots1">
+    <span></span>
+</div>
+<div class="debug"></div>
             </div>
             <div class="section" id="section-programs" data-anchor="programmes">
                 
@@ -154,11 +198,9 @@ Une Section C
 <h1>Site Internet à Propos de Nous</h1>
 Une Section E
             </div>
-        </div>
-        <p id="scroll-down"></p>
-            
+        </div>            
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+        <script src="/assets/js/fullpage.js"></script>
         <script src="/assets/js/main.js"></script>
     </body>
 </html>

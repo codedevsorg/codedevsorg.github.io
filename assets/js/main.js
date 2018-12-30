@@ -12,6 +12,37 @@ function navMobileSelected() {
     ;  
 }
 
+function isMobile() {
+    // this must be refactored to have the correct
+    // CSS counterpart
+    return false;
+    /*
+    if(window.innerWidth < 992)
+        return true; // mobile
+    else
+        return false; // desktop
+    */
+}
+
+/* updates the image logo at the top from main page to others */
+function updateLogo() {
+    var curHash = location.hash;
+    // checking in other languages or if #home is /
+    if(curHash.length == 0 || curHash.includes("#home")
+    || curHash.includes("#inicio")) {
+        if(isMobile()) {
+            $('.codedevs-engineer-color').addClass('hide');
+        } else {        
+            $('.codedevs-engineer-color').addClass('hide');        
+            $('.codedevs-engineer-silver').removeClass('hide');
+        }    
+    } else {
+        $('.codedevs-engineer-color').removeClass('hide');        
+        $('.codedevs-engineer-silver').addClass('hide');
+    }
+}
+
+
 /* paths have the format /eng/#section */
 function switchLang() {
     var newLang = $('#language-selector').val();
@@ -48,17 +79,31 @@ function switchLang() {
     });
 }
 
+
+function convertRem2Pixel(rem) {    
+    return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+}
+
 $(document).ready(function() {
+    
+    var paddingTop = '';
+    if($(window).width() < 479 ) {
+        paddingTop = '8vh';
+    } else {
+        var desktopPadding = convertRem2Pixel(4.6) + 20; // engineer + padding
+        paddingTop = desktopPadding.toString() + 'px';
+    }
     /* This sets one page slide feature */
-	$('#fullpage').fullpage({
+    $('#fullpage').fullpage({
         // Options        
         scrollingSpeed: 550,
         //scrollBar: true,
-        //paddingTop: 0,
+        paddingTop: paddingTop,
         //paddingBottom: 0,
         //navigation: true,
         //navigationPosition: "left",
-        slidesNavigation: true
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom'
     });
 
     /* Shows/Hides Menu Bar Window by using CSS*/
@@ -67,5 +112,8 @@ $(document).ready(function() {
     $(".nav-mobile-list > li").click(barHandler);
 
     $('#language-selector').change(switchLang);
+    
+    updateLogo();
+    window.addEventListener("hashchange", updateLogo, false);
 });
 

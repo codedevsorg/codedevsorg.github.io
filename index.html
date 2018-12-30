@@ -4,16 +4,20 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Muli:400,600,700|Noto+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css">
+        <link rel="stylesheet" href="/assets/css/fullpage.css">
         <link rel="stylesheet" href="/assets/css/style.css">                
         <title>CodeDevs | Non-Profit Coding Academy for Women & Minorities</title>
     </head>
     <body>
         <header>    
-    <div class="codedevs-engineer">
-        <a href="/#home"><img src="/assets/img/codedevs-engineer.svg"/></a>
+    <div class="codedevs-engineer-color">
+        <a href="/#home"><img src="/assets/img/codedevs-engineer-color.svg"/></a>
+    </div>
+    <div class="codedevs-engineer-silver hide">
+        <img src="/assets/img/codedevs-engineer-silver.svg"/>
     </div>
     <div class="navigation">
         <div class="nav-social">            
@@ -40,13 +44,13 @@
 </div>
 
 
-    <a href="https://instagram.com/codedevsorg" target="_blank"><i class="fa fa-instagram"></i></a>
-
     <a href="https://twitter.com/codedevsorg" target="_blank"><i class="fa fa-twitter"></i></a>
 
     <a href="https://facebook.com/codedevsorg" target="_blank"><i class="fa fa-facebook"></i></a>
 
-    <a href="https://youtube.com/user/codedevsorg" target="_blank"><i class="fa fa-youtube"></i></a>
+    <a href="https://instagram.com/codedevsorg" target="_blank"><i class="fa fa-instagram"></i></a>
+
+    <a href="https://www.youtube.com/channel/UC_ZfAFlGfhvVUnnWbUzYd6g" target="_blank"><i class="fa fa-youtube"></i></a>
 
         </div>
         <div class="nav-desktop">
@@ -54,21 +58,21 @@
 
 <div class="nav-desktop-list">            
 
-    <a href="#home" target="_self">HOME</a>
+    <a href="#home" target="_self">Home</a>
 
-    <a href="#programs" target="_self">PROGRAMS</a>
+    <a href="#programs" target="_self">Programs</a>
 
-    <a href="#registration" target="_self">REGISTRATION</a>
+    <a href="#registration" target="_self">Registration</a>
 
-    <a href="#get-involved" target="_self">GET INVOLVED</a>
+    <a href="#get-involved" target="_self">Get involved</a>
 
-    <a href="#about-us" target="_self">ABOUT US</a>
+    <a href="#about-us" target="_self">About us</a>
 
 </div>
         </div>    
         <div class="nav-mobile-wrap">
             <div class="mobile-bar-icon-wrap">                
-                <div class="mobile-bar-icon">Menu&nbsp;&nbsp;<i class="fa fa-bars"></i></div>
+                <div class="mobile-bar-icon"><i class="fa fa-bars"></i></div>
                 <div class="mobile-bar-icon-close hide"><i class="fa fa-times"></i></div>
             </div>
             <!-- Navigation - Enabled in Small Display (Only)(Accordion Content) -->
@@ -93,13 +97,13 @@
         
         <li>
         
-            <a href="https://instagram.com/codedevsorg" target="_blank"><i class="fa fa-instagram  "></i></a>
-        
             <a href="https://twitter.com/codedevsorg" target="_blank"><i class="fa fa-twitter  "></i></a>
         
             <a href="https://facebook.com/codedevsorg" target="_blank"><i class="fa fa-facebook  "></i></a>
         
-            <a href="https://youtube.com/user/codedevsorg" target="_blank"><i class="fa fa-youtube  "></i></a>
+            <a href="https://instagram.com/codedevsorg" target="_blank"><i class="fa fa-instagram  "></i></a>
+        
+            <a href="https://www.youtube.com/channel/UC_ZfAFlGfhvVUnnWbUzYd6g" target="_blank"><i class="fa fa-youtube  "></i></a>
         
         </li>        
     </ul>
@@ -110,17 +114,57 @@
         
         <!-- Starts FullPage Slide JS -->
         <div id="fullpage">
-            <div class="section" id="section-home" data-anchor="home">
+            <div class="section" id="section-home" data-anchor="home">                
                 
-<div class="s-banner">    
+<div class="banner">
     <h1><span>co</span>de <span>de</span>vs</h1>   
-    <h2>Non-Profit Coding Academy</h2>
-    <div class="s-zinger">
-        <h3><span class="span-learn">LEARN</span> HOW TO <span class="span-code">CODE</span></h3>
-        <h3>WITH <span class="span-robots">ROBOTS</span></h3>
-    </div>
-    <h4>Westminster Opportunity Quest  2018 Winner</h4>
+    <div class="banner-inner">
+        <div class="banner-left">
+            <h2>Non-Profit Coding Academy</h2>
+            <div class="zinger">
+                <h3><span class="span-learn">LEARN</span> HOW TO <span class="span-code">CODE</span></h3>
+                <h3>WITH <span class="span-robots">ROBOTS</span></h3>
+            </div>
+            <h4>Westminster OQ 2018: Social Category Winner<br/>
+                and People's Choice Award
+            </h4>
+        </div>
+    </div>    
 </div>
+<div class="banner-ads">
+    <div class="banner-robot">
+        <p>Tiny robots for young kids bringing fun while learning several colorful activities</p>
+        <div class="banner-robot-img">
+            <img src="/assets/img/robot-x200-ozobot.png"/>
+            <h3>Ozobots</h3>
+        </div>
+    </div>
+    <div class="banner-robot">
+        <p>Equiped with multifunctional capabilities. We literally hack MiP to add social media behavior</p>
+        <div class="banner-robot-img">
+            <img src="/assets/img/robot-x200-mip.png"/>
+            <h3>MiP</h3>
+        </div>
+    </div>
+    <div class="banner-robot">
+        <p>Smart and programmable. Machine learning becomes accessible and fun to learn with the cutest robot</p>
+        <div class="banner-robot-img">
+            <img src="/assets/img/robot-x200-cozmo.png"/>
+            <h3>Cozmo</h3>
+        </div>
+    </div>
+    <div class="banner-robot">
+        <p>Discover how autonomous vehicles work by immersing into smart coding for one of the best compact drones</p>
+        <div class="banner-robot-img">
+            <img src="/assets/img/robot-x200-dji_spark.png"/>
+            <h3>DJI Spark</h3>
+        </div>        
+    </div>
+</div>
+<div class="banner-robots1">
+    <span></span>
+</div>
+<div class="debug"></div>
             </div>
             <div class="section" id="section-programs" data-anchor="programs">
                 
@@ -154,11 +198,9 @@ Some section C
 <h1>About Us Webpage</h1>
 Some section E
             </div>
-        </div>
-        <p id="scroll-down"></p>
-            
+        </div>            
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+        <script src="/assets/js/fullpage.js"></script>
         <script src="/assets/js/main.js"></script>
     </body>
 </html>
